@@ -78,5 +78,5 @@ Contributions are welcome! Feel free to fork the repository and submit pull requ
 
 ## 📫 Contact
 
-👨‍💻 **Author:** [Your Name Here]  
-📧 **Email:** your.email@example.com
+👨‍💻 **Author:** [Vedansh Maheshwar]  
+📧 **Email:** vedanshm15@gmail.com
