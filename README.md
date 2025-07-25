@@ -1,33 +1,29 @@
-# 🚀 DevTinder – Connect with Developers Like Never Before!
+# 🌍 Wanderly – Your AI-Powered Travel Companion
 
-## 🔥 Overview
+## ✨ Overview
 
-DevTinder is a **developer networking platform** where tech enthusiasts can **connect, chat, and collaborate** based on mutual interest. Inspired by Tinder, it lets users **swipe left to ignore and right to connect**, with real-time chat features powered by **Socket.io**.
+Wanderly is an **AI-powered travel platform** that helps you plan trips, find travel companions, and connect with local guides for authentic experiences. Whether you're looking for personalized itineraries, travel buddies, or expert-led group trips, Wanderly has you covered.
 
-🚀 **Live Demo**: [https://devtinder-remo.vercel.app](https://devtinder-remo.vercel.app)  
-📌 **GitHub Repository**: [DevTinder Repo](https://github.com/sharadindudas/devtinder)
+## 🚀 Features
 
-## ✨ Features
-
-✅ **JWT & Cookie-based Authentication** – Secure login and signup.  
-✅ **Swipeable Feed** – Browse developer profiles and swipe to connect.  
-✅ **Connection Requests** – Accept/reject connection requests easily.  
-✅ **Real-time Chat** – Powered by **Socket.io** with notification sounds.  
-✅ **Profile Management** – Edit and update your profile details.
+✅ **AI Trip Planning** – Get personalized itineraries crafted by AI based on your preferences, budget, and travel style.  
+✅ **Travel Companion Matching** – Swipe to find and connect with like-minded travelers.  
+✅ **Connection Requests** – Send, receive, and review connection requests easily.  
+✅ **Real-time Chat** – Secure, instant messaging with travelers and guides.  
+✅ **Local Guide Experience** – Join group trips curated by local guides for authentic travel adventures.
 
 ## 🛠 Tech Stack
 
-**Frontend:** React.js, JavaScript, Zustand, Tailwind CSS, DaisyUi  
-**Backend:** Node.js, Express.js, MongoDB  
-**Real-time:** Socket.io  
-**Authentication:** JWT & Cookies
+**Frontend:** React.js, Zustand, Tailwind CSS, DaisyUI, Framer Motion, React Hook Form, Yup, React Router, Socket.io-client  
+**Backend:** Node.js, Express.js, MongoDB, Socket.io, JWT, bcrypt, dotenv, cookie-parser  
+**AI:** Integrates with generative AI for trip planning
 
 ## 📂 Project Structure
 
 ```bash
-devtinder/
-│── frontend/    # Frontend (React, JavaScript, Zustand, Tailwind CSS, DaisyUi)
-│── backend/     # Backend (Node.js, Express, MongoDB, Socket.io)
+wanderly/
+│── frontend/    # React frontend
+│── backend/     # Node.js/Express backend
 │── README.md    # Documentation
 ```
 
@@ -36,8 +32,8 @@ devtinder/
 ### 1️⃣ Clone the repository
 
 ```bash
-git clone https://github.com/sharadindudas/devtinder.git
-cd devtinder
+git clone <your-repo-url>
+cd wanderly
 ```
 
 ### 2️⃣ Install dependencies
@@ -60,8 +56,8 @@ npm run dev
 
 ### 3️⃣ Setup environment variables
 
--   Create a `.env` file in both **frontend** and **backend** folders.
--   Add necessary environment variables as per the `.env.example`.
+- Create a `.env` file in both **frontend** and **backend** folders.
+- Add necessary environment variables as required by your setup.
 
 ## 🚀 Contributing
 
@@ -70,10 +66,10 @@ Contributions are welcome! Feel free to fork the repository and submit pull requ
 ## 🧠 Upcoming Features (Planned)
 
 🚧 **Online/Offline Status** – Show when a user is online or last seen.  
-💬 **Typing Indicator** – Show when the other user is typing (WhatsApp-style).  
+💬 **Typing Indicator** – Show when the other user is typing.  
 📎 **File Attachments in Chat** – Send and receive images, PDFs, or code snippets.  
 🎨 **UI/UX Improvements** – Make the interface sleeker and more interactive.   
-🎯 **Daily Match Suggestions** – Algorithmic suggestions based on mutual interests or languages.  
+🎯 **Daily Match Suggestions** – Algorithmic suggestions based on mutual interests or travel styles.  
 📊 **Activity Stats** – Track profile views, swipe counts, and connection stats.  
 🛡️ **Reporting & Blocking** – Allow users to report/block inappropriate behavior.  
 🔔 **Push Notifications** – Real-time browser/mobile alerts for messages and connection requests.  
@@ -82,5 +78,5 @@ Contributions are welcome! Feel free to fork the repository and submit pull requ
 
 ## 📫 Contact
 
-👨‍💻 **Author:** [Sharadindu Das](https://github.com/sharadindudas)  
-📧 **Email:** sharadindudas774@gmail.com
+👨‍💻 **Author:** [Your Name Here]  
+📧 **Email:** your.email@example.com
